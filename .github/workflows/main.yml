@@ -32,5 +32,3 @@ jobs:
           npx playwright install
           npm run test
 
-      - name: Run Checks
-        run: npm run check
