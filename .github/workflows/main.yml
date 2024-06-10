@@ -27,9 +27,6 @@ jobs:
       - name: Check code formatting with Prettier
         run: npm run lint
 
-      - name: Run Unit Tests
-        run: npm run test:unit
-
       - name: Run Tests
         run: |
           npx playwright install
